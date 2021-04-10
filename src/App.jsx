@@ -1,10 +1,11 @@
 import React from 'react';
+import {
+  Auth
+} from './pages';
 
 const App = () => {
   return (
-    <h1>
-      Hello world!
-    </h1>
+    <Auth />
   )
 }
 

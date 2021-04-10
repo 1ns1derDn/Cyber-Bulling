@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  &.container--auth {
+    max-width: 450px;
+  }
+  &.container--main {
+    max-width: 1200px;
+  }
+}
